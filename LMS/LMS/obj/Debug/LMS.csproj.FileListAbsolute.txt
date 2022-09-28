@@ -1,0 +1,18 @@
+E:\Third Year\LMS\LMS\bin\LMS.dll.config
+E:\Third Year\LMS\LMS\bin\LMS.dll
+E:\Third Year\LMS\LMS\bin\LMS.pdb
+E:\Third Year\LMS\LMS\obj\Debug\LMS.csprojResolveAssemblyReference.cache
+E:\Third Year\LMS\LMS\obj\Debug\LMS.dll
+E:\Third Year\LMS\LMS\obj\Debug\LMS.pdb
+E:\Third Year\LMS\LMS\LMS\bin\LMS.dll.config
+E:\Third Year\LMS\LMS\LMS\bin\LMS.dll
+E:\Third Year\LMS\LMS\LMS\bin\LMS.pdb
+E:\Third Year\LMS\LMS\LMS\obj\Debug\LMS.csprojResolveAssemblyReference.cache
+E:\Third Year\LMS\LMS\LMS\obj\Debug\LMS.dll
+E:\Third Year\LMS\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\bin\LMS.dll.config
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\bin\LMS.dll
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\bin\LMS.pdb
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\obj\Debug\LMS.csprojResolveAssemblyReference.cache
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\obj\Debug\LMS.dll
+C:\Users\ookyawsoe\Desktop\LMS\LMS\LMS\LMS\obj\Debug\LMS.pdb
