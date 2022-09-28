@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MemberMaster.master.cs" Inherits="LMS.MemberMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .profileName {
+            text-transform: uppercase;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="navbar navbar-dark bg-primary box-shadow">
+                <div class="container d-flex justify-content-between">
+                    <a href="MemberHomePage.aspx" class="navbar-brand d-flex align-items-center">
+                        <img src="assets/dist/img/logo.png" alt="logo" width="50" height="50" style="border-radius: 50%;" class="mr-2" />
+                        <strong>UCSS ONLINE LMS</strong>
+                    </a>
+                    <a href="MemberHomePage.aspx" class="navbar-brand d-flex align-items-center" style="font-size: 15px">HOME
+                    </a>
+                    <div class="dropdown">
+                        <asp:DropDownList ID="DDListBCatg" class="btn btn-primary dropdown-toggle" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
+                            <asp:ListItem>Book Category</asp:ListItem>
+                            <asp:ListItem>Technology</asp:ListItem>
+                            <asp:ListItem>Programming</asp:ListItem>
+                            <asp:ListItem>Medicine</asp:ListItem>
+
+
+                        </asp:DropDownList>
+                    </div>
+                    <a href="AboutPage.aspx" class="navbar-brand d-flex align-items-center" style="font-size: 15px">ABOUT
+                    </a>
+                    <a href="ContactPage.aspx" class="navbar-brand d-flex align-items-center" style="font-size: 15px">CONTACT
+                    </a>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <asp:Label ID="profileName" CssClass="profileName" runat="server" Text=""></asp:Label>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="MemberProfile.aspx">PROFILE</a><hr>
+                             <a class="dropdown-item" href="MemberBookBorrowListPage.aspx">VIEW BORROW LIST</a><hr>
+                            <a class="dropdown-item" href="LoginPage.aspx">SIGN OUT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="bg-white">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">
+                        <i class="bi bi-arrow-up-circle btn-lg  text-secondary"></i>
+                </p>
+                <a href="#" class="text-secondary">Copyright © 2019-2022 UCSS Online LMS All rights reserved.</a>
+            </div>
+        </footer>
+    </form>
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
